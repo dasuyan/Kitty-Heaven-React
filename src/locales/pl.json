@@ -1,0 +1,249 @@
+{
+  "main-page": {
+    "content": "Strona główna"
+  },
+  "nav": {
+    "main-page": "Strona główna",
+    "cats": "Koty",
+    "caretakers": "Opiekunowie",
+    "cares": "Opieka",
+    "specializations": "Specjalizacje",
+    "treatments": "Zabiegi"
+  },
+  "list": {
+    "actions": {
+      "title": "Akcje",
+      "details": "Szczegóły",
+      "edit": "Edytuj",
+      "delete": "Usuń"
+    }
+  },
+  "form": {
+    "actions": {
+      "return": "Powrót",
+      "edit": "Edytuj",
+      "cancel": "Anuluj"
+    }
+  },
+  "cat": {
+    "fields": {
+      "name": "Imię",
+      "age": "Wiek",
+      "breed": "Rasa"
+    },
+    "list": {
+      "title": "Koty",
+      "addNew": "Dodaj nowego kota",
+      "noData": "Brak kotów w bazie",
+      "pageTitle": "Lista kotów"
+    },
+    "form": {
+      "care": "Historia opieki",
+      "add": {
+        "pageTitle": "Dodawanie kota",
+        "btnLabel": "Dodaj kota",
+        "confirm": {
+          "header": "Potwierdzenie operacji",
+          "text": "Pomyślnie dodano kota"
+        }
+      },
+      "edit": {
+        "pageTitle": "Edycja kota",
+        "btnLabel": "Zapisz zmiany",
+        "confirm": {
+          "header": "Potwierdzenie operacji",
+          "text": "Pomyślnie zaktualizowano kota"
+        }
+      }
+    },
+    "misc": {
+      "error": "Błąd",
+      "details": "Szczegóły kota",
+      "loading": "Ładowanie danych kota"
+    }
+  },
+  "caretaker": {
+    "fields": {
+      "name": "Imię",
+      "surname": "Nazwisko",
+      "email": "Email",
+      "primaryRole": "Główna rola",
+      "password": "Hasło"
+    },
+    "list": {
+      "title": "Opiekunowie",
+      "addNew": "Dodaj nowego opiekuna",
+      "noData": "Brak opiekunów w bazie",
+      "pageTitle": "Lista opiekunów"
+    },
+    "form": {
+      "care": "Historia opieki",
+      "add": {
+        "pageTitle": "Dodawanie opiekuna",
+        "btnLabel": "Dodaj opiekuna",
+        "confirm": {
+          "header": "Potwierdzenie operacji",
+          "text": "Pomyślnie dodano opiekuna"
+        }
+      },
+      "edit": {
+        "pageTitle": "Edycja opiekuna",
+        "btnLabel": "Zapisz zmiany",
+        "confirm": {
+          "header": "Potwierdzenie operacji",
+          "text": "Pomyślnie zaktualizowano opiekuna"
+        }
+      }
+    },
+    "misc": {
+      "error": "Błąd",
+      "details": "Szczegóły opiekuna",
+      "loading": "Ładowanie danych opiekuna"
+    }
+  },
+  "care": {
+    "fields": {
+      "cat": "Kot",
+      "caretaker": "Opiekun",
+      "dateFrom": "Data od",
+      "dateTo": "Data do",
+      "totalCost": "Łączny koszt"
+    },
+    "list": {
+      "title": "Opieka",
+      "addNew": "Dodaj nową opiekę",
+      "noData": "Brak opieki w bazie",
+      "pageTitle": "Lista opieki"
+    },
+    "form": {
+      "add": {
+        "pageTitle": "Dodawanie opieki",
+        "btnLabel": "Dodaj opiekę",
+        "confirm": {
+          "header": "Potwierdzenie operacji",
+          "text": "Pomyślnie dodano opiekę"
+        }
+      },
+      "edit": {
+        "pageTitle": "Edycja opieki",
+        "btnLabel": "Zapisz zmiany",
+        "confirm": {
+          "header": "Potwierdzenie operacji",
+          "text": "Pomyślnie zaktualizowano opiekę"
+        }
+      },
+      "chooseCat": "Wybierz kota",
+      "chooseCaretaker": "Wybierz opiekuna"
+    },
+    "misc": {
+      "error": "Błąd",
+      "details": "Szczegóły opieki",
+      "loading": "Ładowanie danych opieki"
+    }
+  },
+  "treatment": {
+    "fields": {
+      "name": "Nazwa",
+      "cost": "Koszt",
+      "contraindications": "Przeciwskazania"
+    },
+    "list": {
+      "title": "Zabiegi",
+      "addNew": "Dodaj nowy zabieg",
+      "noData": "Brak zabiegów w bazie danych",
+      "pageTitle": "Lista zabiegów"
+    },
+    "form": {
+      "specialization": "Specjalizacje",
+      "add": {
+        "pageTitle": "Dodawanie nowego zabiegu",
+        "btnLabel": "Dodaj zabieg",
+        "confirm": {
+          "header": "Potwierdzenie",
+          "text": "The new treatment has been successfully created"
+        }
+      },
+      "edit": {
+        "pageTitle": "Edycja zabiegu",
+        "btnLabel": "Zapisz zmiany",
+        "confirm": {
+          "header": "Potwierdzenie",
+          "text": "The treatment has been successfully updated"
+        }
+      }
+    },
+    "misc": {
+      "error": "Błąd",
+      "details": "Szczegóły zabiegu",
+      "loading": "Ładowanie info o zabiegu"
+    }
+  },
+  "specialization": {
+    "fields": {
+      "treatment": "Zabieg",
+      "caretaker": "Opiekun",
+      "certificate": "Certyfikat",
+      "certificationYear": "Rok certyfikacji"
+    },
+    "list": {
+      "title": "Specjalizacje",
+      "addNew": "Dodaj nową specjalizację",
+      "noData": "Brak specjalizacji w bazie danych",
+      "pageTitle": "Lista specjalizacji"
+    },
+    "form": {
+      "add": {
+        "pageTitle": "Dodawanie nowej specjalizacji",
+        "btnLabel": "Dodaj specjalizację",
+        "confirm": {
+          "header": "Potwierdzenie",
+          "text": "The new specialization has been successfully created"
+        }
+      },
+      "edit": {
+        "pageTitle": "Edycja specjalizacji",
+        "btnLabel": "Zapisz zmiany",
+        "confirm": {
+          "header": "Potwierdzenie",
+          "text": "The new specialization has been successfully updated"
+        }
+      },
+      "chooseTreatment": "Wybierz zabieg",
+      "chooseCaretaker": "Wybierz opiekuna"
+    },
+    "misc": {
+      "error": "Błąd",
+      "details": "Szczegóły specjalizacji",
+      "loading": "Ładowanie danych specjalizacji"
+    }
+  },
+  "validation": {
+    "authPageTitle": "Panel logowania",
+    "messages": {
+      "notEmpty": "Pole jest wymagane",
+      "isEmail": "Pole powinno zawierać prawidłowy adres email",
+      "isInt": "Wartość powinna być liczbą całkowitą",
+      "isDecimal": "Pole powinno zawierać liczbę dziesiętną",
+      "isDate": "Wartość powinna byc datą",
+      "len_2_50": "Pole powinno zawierać od 2 do 50 znaków",
+      "len_0_50": "Pole powinno zawierać od 0 do 50 znaków",
+      "min_0": "Wartość powinna być >= 0",
+      "max_50": "Wartość powinna być <= 50",
+      "max_1000000": "Wartość powinna być <= 1000000",
+      "futureDate": "Data nie może być z przyszłości",
+      "dateBefore": "\"Data do\" powinna być późniejsza niż \"Data od\"",
+      "formErrors": "Próba logowania zakończona niepowodzeniem"
+    }
+  },
+  "buttons": {
+    "addBtn": "Dodaj",
+    "editBtn": "Edytuj",
+    "returnBtn": "Powrót",
+    "cancelBtn": "Anuluj",
+    "deleteBtn": "Usuń",
+    "detailsBtn": "Szczegóły",
+    "login": "Zaloguj",
+    "logout": "Wyloguj",
+    "actions": "Akcje"
+  }
+}

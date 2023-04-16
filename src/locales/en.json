@@ -1,0 +1,249 @@
+{
+  "main-page": {
+    "content": "Main Page"
+  },
+  "nav": {
+    "main-page": "Main page",
+    "cats": "Cats",
+    "caretakers": "Caretakers",
+    "cares": "Cares",
+    "specializations": "Specializations",
+    "treatments": "Treatments"
+  },
+  "list": {
+    "actions": {
+      "title": "Actions",
+      "details": "Details",
+      "edit": "Edit",
+      "delete": "Delete"
+    }
+  },
+  "form": {
+    "actions": {
+      "return": "Return",
+      "edit": "Edit",
+      "cancel": "Cancel"
+    }
+  },
+  "cat": {
+    "fields": {
+      "name": "Name",
+      "age": "Age",
+      "breed": "Breed"
+    },
+    "list": {
+      "title": "Cats",
+      "addNew": "Add a new cat",
+      "noData": "No cats in the database",
+      "pageTitle": "List of cats"
+    },
+    "form": {
+      "care": "History of care",
+      "add": {
+        "pageTitle": "Adding a new cat",
+        "btnLabel": "Add the cat",
+        "confirm": {
+          "header": "Confirmation",
+          "text": "The new cat has been successfully created"
+        }
+      },
+      "edit": {
+        "pageTitle": "Editing the cat",
+        "btnLabel": "Save changes",
+        "confirm": {
+          "header": "Confirmation",
+          "text": "The new cat has been successfully updated"
+        }
+      }
+    },
+    "misc": {
+      "error": "Error",
+      "details": "Cat's details",
+      "loading": "Loading cat's data"
+    }
+  },
+  "caretaker": {
+    "fields": {
+      "name": "Name",
+      "surname": "Surname",
+      "email": "Email",
+      "primaryRole": "Primary role",
+      "password": "Password"
+    },
+    "list": {
+      "title": "Caretakers",
+      "addNew": "Add a new caretaker",
+      "noData": "No caretakers in the database",
+      "pageTitle": "List of caretakers"
+    },
+    "form": {
+      "care": "History of care",
+      "add": {
+        "pageTitle": "Adding a new caretaker",
+        "btnLabel": "Add the caretaker",
+        "confirm": {
+          "header": "Confirmation",
+          "text": "The new caretaker has been successfully created"
+        }
+      },
+      "edit": {
+        "pageTitle": "Editing the caretaker",
+        "btnLabel": "Save changes",
+        "confirm": {
+          "header": "Confirmation",
+          "text": "The new caretaker has been successfully updated"
+        }
+      }
+    },
+    "misc": {
+      "error": "Error",
+      "details": "Caretaker's details",
+      "loading": "Loading caretaker's data"
+    }
+  },
+  "care": {
+    "fields": {
+      "cat": "Cat",
+      "caretaker": "Caretaker",
+      "dateFrom": "Date from",
+      "dateTo": "Date to",
+      "totalCost": "Total cost"
+    },
+    "list": {
+      "title": "Care",
+      "addNew": "Add new care",
+      "noData": "No care in database",
+      "pageTitle": "List of cares"
+    },
+    "form": {
+      "add": {
+        "pageTitle": "Adding new care",
+        "btnLabel": "Add care",
+        "confirm": {
+          "header": "Confirmation",
+          "text": "The new care has been successfully created"
+        }
+      },
+      "edit": {
+        "pageTitle": "Editing the care",
+        "btnLabel": "Save changes",
+        "confirm": {
+          "header": "Confirmation",
+          "text": "The new care has been successfully updated"
+        }
+      },
+      "chooseCat": "Choose a cat",
+      "chooseCaretaker": "Choose a caretaker"
+    },
+    "misc": {
+      "error": "Error",
+      "details": "Care's details",
+      "loading": "Loading care's data"
+    }
+  },
+  "treatment": {
+    "fields": {
+      "name": "Name",
+      "cost": "Cost",
+      "contraindications": "Contraindications"
+    },
+    "list": {
+      "title": "Treatments",
+      "addNew": "Add a new treatment",
+      "noData": "No treatments in the database",
+      "pageTitle": "List of treatments"
+    },
+    "form": {
+      "specialization": "Specializations",
+      "add": {
+        "pageTitle": "Adding a new treatment",
+        "btnLabel": "Add the treatment",
+        "confirm": {
+          "header": "Confirmation",
+          "text": "The new treatment has been successfully created"
+        }
+      },
+      "edit": {
+        "pageTitle": "Editing the treatment",
+        "btnLabel": "Save changes",
+        "confirm": {
+          "header": "Confirmation",
+          "text": "The treatment has been successfully updated"
+        }
+      }
+    },
+    "misc": {
+      "error": "Error",
+      "details": "Treatment's details",
+      "loading": "Loading treatment's data"
+    }
+  },
+  "specialization": {
+    "fields": {
+      "treatment": "Treatment",
+      "caretaker": "Caretaker",
+      "certificate": "Certificate",
+      "certificationYear": "Certification year"
+    },
+    "list": {
+      "title": "Specializations",
+      "addNew": "Add a new specialization",
+      "noData": "No specializations in database",
+      "pageTitle": "List of specializations"
+    },
+    "form": {
+      "add": {
+        "pageTitle": "Adding a new specialization",
+        "btnLabel": "Add specialization",
+        "confirm": {
+          "header": "Confirmation",
+          "text": "The new specialization has been successfully created"
+        }
+      },
+      "edit": {
+        "pageTitle": "Editing the specialization",
+        "btnLabel": "Save changes",
+        "confirm": {
+          "header": "Confirmation",
+          "text": "The new specialization has been successfully updated"
+        }
+      },
+      "chooseTreatment": "Choose a treatment",
+      "chooseCaretaker": "Choose a caretaker"
+    },
+    "misc": {
+      "error": "Error",
+      "details": "Specialization's details",
+      "loading": "Loading specialization's data"
+    }
+  },
+  "validation": {
+    "authPageTitle": "Login panel",
+    "messages": {
+      "notEmpty": "Field is mandatory",
+      "isEmail": "Field should contain a valid email address",
+      "isInt": "Value should be an integer",
+      "isDecimal": "Value should be a decimal number",
+      "isDate": "Value should be a date",
+      "len_2_50": "Field should contain between 2 and 50 characters",
+      "len_0_50": "Field should contain between 0 and 50 characters",
+      "min_0": "Value should be >= 0",
+      "max_50": "Value should be <= 50",
+      "max_1000000": "Value should be <= 1000000",
+      "futureDate": "Date can't be from the future",
+      "dateBefore": "\"Date to\" should be later than \"Date from\"",
+      "formErrors": "Login unsuccessful"
+    }
+  },
+  "buttons": {
+    "addBtn": "Add",
+    "editBtn": "Edit",
+    "returnBtn": "Back",
+    "cancelBtn": "Cancel",
+    "deleteBtn": "Delete",
+    "detailsBtn": "Details",
+    "login": "Login",
+    "logout": "Logout",
+    "actions": "Actions"
+  }
+}

@@ -1,0 +1,322 @@
+/* Style wspólne dla całości strony */
+html {
+    background: linear-gradient(45deg, rgb(225, 5, 152) 0%, rgba(225, 5, 34, 0) 70%) repeat scroll 0% 0%, linear-gradient(135deg, rgb(26, 1, 117) 10%, rgba(49, 5, 209, 0) 80%) repeat scroll 0% 0%, linear-gradient(225deg, hsla(179, 91%, 45%, 1) 10%, rgba(10, 219, 216, 0) 80%) repeat scroll 0% 0%, rgba(0, 0, 0, 0) linear-gradient(315deg, rgb(189, 5, 245) 100%, rgba(9, 245, 5, 0) 70%) repeat scroll 0% 0%;
+    font-family: "Roboto Light", sans-serif;
+}
+
+body {
+    min-width: 360px;
+}
+
+/* Elementy szablonu strony (header, nav, main, footer) */
+header,
+main,
+footer {
+    background-color: blanchedalmond;
+}
+
+header,
+main,
+footer,
+nav {
+    margin: 2rem;
+}
+
+header,
+footer {
+    background-color: pink;
+    color: cornsilk;
+    padding: 2rem;
+}
+
+header {
+    font-size: 30px;
+    font-family: "Mongolian Baiti", sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    background-color: hotpink;
+}
+
+nav ul {
+    display: flex;
+    padding: 0;
+    list-style-type: none;
+}
+
+nav ul li.lang {
+    margin-left: auto;
+}
+
+nav ul li button {
+    background-color: transparent;
+    border: 0;
+}
+
+nav ul li a,
+nav ul li button {
+    display: inline-block;
+    color: purple;
+    padding: 1rem 2rem;
+    text-decoration: none;
+}
+
+nav ul li a:hover,
+nav ul li button:hover {
+    background-color: plum;
+    color: purple;
+}
+
+nav ul li a.active {
+    background-color: deeppink;
+    color: purple;
+}
+
+main {
+    padding: 1.5rem;
+}
+
+footer {
+    text-align: center;
+}
+
+/* Lista rekordów */
+main h2 {
+    border-bottom: 1px solid fuchsia;
+    margin-bottom: 2rem;
+}
+
+.table-list {
+    border-collapse: collapse;
+    color: darkmagenta;
+    width: 100%;
+}
+
+.table-list,
+.table-list th,
+.table-list td {
+    border: 1px solid darksalmon;
+}
+
+.table-list th,
+.table-list td {
+    padding: 0.5rem;
+}
+
+.table-list th,
+.table-list tbody tr:nth-child(even) {
+    background-color: lemonchiffon;
+}
+
+.list-actions {
+    margin: 0;
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+.list-actions li {
+    display: inline-block;
+}
+
+.list-actions-button-details,
+.list-actions-button-edit,
+.list-actions-button-delete {
+    display: inline-block;
+    width: 80px;
+    padding: 0.25rem 0.5rem;
+}
+
+.list-actions-button-details,
+.list-actions-button-edit,
+.list-actions-button-delete,
+.button-add,
+.form-button-submit,
+.form-button-cancel {
+    border: none;
+    border-radius: 5px;
+    color: floralwhite;
+    text-decoration: none;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.list-actions-button-details,
+.list-actions-button-edit {
+    margin-right: 1rem;
+}
+
+.list-actions-button-details {
+    background-color: lightpink;
+}
+
+.list-actions-button-details:hover {
+    background-color: hotpink;
+}
+
+.list-actions-button-edit {
+    background-color: orchid;
+}
+
+.list-actions-button-edit:hover {
+    background-color: darkorchid;
+}
+
+.list-actions-button-delete,
+.form-button-cancel {
+    background-color: lightcoral;
+}
+
+.list-actions-button-delete:hover,
+.form-button-cancel:hover {
+    background-color: coral;
+}
+
+.button-add,
+.form-button-submit,
+.form-button-cancel {
+    padding: 0.5rem 1rem;
+}
+
+.button-add,
+.form-button-submit {
+    background-color: goldenrod;
+}
+
+.button-add:hover,
+.form-button-submit:hover {
+    background-color: darkgoldenrod;
+}
+
+/* Formularz nowego rekordu */
+button,
+input,
+select,
+textarea {
+    font-family: inherit;
+    font-size: 100%;
+    box-sizing: border-box;
+    padding: 0; margin: 0;
+}
+
+textarea {
+    overflow: auto;
+}
+
+.form {
+    display: grid;
+    grid-template-columns: 150px 300px 1fr;
+    gap: 1rem;
+}
+
+.form select,
+.form input[type="text"],
+.form input[type="number"],
+.form input[type="datetime-local"],
+.form input[type="email"] {
+    border: 2px solid fuchsia;
+    color: darkmagenta;
+    border-radius: 5px;
+    padding: 0.5rem;
+    width: 100%;
+}
+
+.form label {
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.symbol-required {
+    color: red;
+}
+
+.form-buttons {
+    margin-top: 2rem;
+    grid-column: 1 / span 2;
+}
+
+.form-button-submit,
+.form-button-cancel {
+    width: 15%;
+    box-sizing: border-box;
+    display: block;
+}
+
+.form-button-submit {
+    margin-bottom: 0.5rem;
+}
+
+.form input.error-input,
+.form select.error-input {
+    border: 3px solid crimson;
+}
+
+.errors-text {
+    display: block;
+    font-size: 0.85rem;
+    line-height: 2.25rem;
+    margin-top: 0.5rem;
+    color: crimson;
+}
+
+@media all and (max-width: 720px) {
+    header {
+        flex-direction: column;
+    }
+
+    header h1 {
+        text-align: center;
+    }
+
+    header img {
+        align-self: center;
+        max-width: 100%;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+    }
+
+    nav ul li {
+        flex-basis: 50%;
+        text-align: center;
+    }
+
+    nav ul li a {
+        display: block;
+    }
+
+    .form {
+        grid-template-columns: 1fr;
+        row-gap: unset;
+        margin-left: unset;
+    }
+
+    .form-buttons {
+        grid-column: 1 / 1;
+    }
+
+    table, thead, tbody, th, td, tr {
+        display: grid;
+        table-layout: auto;
+    }
+
+}
+
+@media all and (max-width: 500px) {
+    body,
+    nav,
+    nav ul,
+    header,
+    main,
+    footer {
+        margin: 0;
+    }
+
+    nav ul li {
+        flex-basis: 100%;
+    }
+}
